@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+  #box{
+      background-color: red;
+      /* display: none; */
+      width: 200px;
+      height: 200px;
+      padding: 0%;
+
+  }
+</style>
+<body>
+    <div id="box" class="box">gg</div>
+    <button id="btn" >Click</button>
+    <input type="text" name="" id="">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script>
+  $("#btn").click(()=>{
+    // alert($("#btn").attr({
+    //     title:"hill",
+    //     height:"200px"
+    // }))
+    // alert($("#box").attr("id","set_id"))
+
+    // alert($("#box").html("this is a box"))
+    // alert($("#box").text("this is a box"))
+    // alert($("input").val("this is update"))//for inputs
+    // alert($("#box").addClass("add_class"))//for add new class
+    alert($("#box").removeClass("box"))//for remove new class
+    // alert($("#box").toggleClass("box"))//for remove new class
+  })
+</script>
+
+</body>
+
+</html>
